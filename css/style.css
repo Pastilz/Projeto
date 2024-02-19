@@ -1,0 +1,15 @@
+
+:root {
+    --white: #f7f7f7;
+    --black: #262626;
+    --grey: #8e9297;
+    --light-grey: #dadada;
+    --red:  #f02727;
+}
+aside {
+    background-image: url(../img/pexels-vojtech-okenka-1055272.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 50vw;
+}

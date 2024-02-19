@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylecontact.css">
+    <title>Contato</title>
+</head>
+<body>
+    <Header>
+        <!-- Cabeçalho/menu interativo -->
+        <a href="../html/index.html">Home</a>
+        <a href="../html/contato.html">Contato</a>
+        <a href="../html/formulário.html">Cadastro</a>
+        <a href="../html/Sobre.html">Sobre</a>
+    </Header>
+    <main>
+        <!-- Numeros e emails imaginários -->
+        <h1>Entre em contato conosco:</h1>
+        <div class="numeros">
+            <p>9</p>
+            <p>9</p>
+            <p>9</p>
+        </div>
+    </main>
+    <aside>
+        <!-- Formulário de Pedido -->
+        <h2>Faça seu pedido</h2>
+        <form>
+            <label for="nome">Nome</label><br/>
+            <input type="text" id="nome" placeholder="Nome completo"><br/>
+            <label for="endereço">Endereço</label><br/>
+            <input type="text" name="endereço" id="endereço" placeholder="Rua, nº, Bairro"><br/>
+            <label for="telefone">Telefone</label><br/>
+            <input type="tel" name="telefone" id="telefone" placeholder="(99) 9999-9999"><br/>
+            <label for="pedidos">Faça seu pedido</label><br/>
+            <select name="pedidos" id="pedidos">
+                <option value="Bolo chocolate">Bolo chocolate</option>
+                <option value="Bolo morango">Bolo morango</option>
+                <option value="Torta limão">Torta limão</option>
+                <option value="Torta morango">Torta morango</option>
+            </select><br/>
+            <label for="qnt">Quantidade</label><br/>
+            <input type="number" name="qnt" id="qnt"><br/>
+            <label for="pgmnt">Forma de pagamento</label><br/>
+            <select name="pgmnt" id="pgmnt">
+                <option value="Di">Dinheiro</option>
+                <option value="De">Débito</option>
+                <option value="Cr">Crédito</option>
+                <option value="Pi">Pix</option>
+            </select><br/>
+            <label for="obs">Observações (opcional)</label><br/>
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea><br/>
+            <button type="submit">Enviar</button>
+        </form>
+    </aside>
+    <footer>
+        <!-- Extras -->
+        &copy; 2024 - Confeitaria Blitz
+    </footer>
+</body>
+</html>
